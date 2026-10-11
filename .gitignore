@@ -1,0 +1,21 @@
+.DS_Store
+.vscode/
+
+# Secrets and local configuration
+backend/src/main/resources/application.properties
+.env
+.env.*
+
+# Java / Maven
+backend/target/
+*.class
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
